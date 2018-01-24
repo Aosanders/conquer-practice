@@ -7,6 +7,7 @@ body, html{
     height:100%;
     margin:0;
     padding:0;
+    font-family: "Open Sans", Helvetica, Arial;
 }
 
 h1,h2{
@@ -29,7 +30,7 @@ a{
     margin:0;
 }
 
-.section-content{
+.section1-content{
     text-align: center;
     color:white;
     font-size: 20px;
@@ -48,7 +49,8 @@ a{
 
 .header ul{
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .header li{
@@ -58,7 +60,7 @@ a{
 .header a{
     color: white;
     border: 1px solid #646d7c;
-    padding:15px 25px;
+    padding:12px 25px;
 }
 
 .section-1{
@@ -79,4 +81,107 @@ a{
 .section-1 h1{
     font-size: 75px;
     text-shadow: 2px 2px black;
+}
+
+.section2-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.section2-content img{
+    width:100%;
+}
+
+.green-title{
+    color:#178A27;
+}
+
+.blue-title{
+    color: #1686C1;
+}
+
+.grey-title{
+    color: #666666;
+}
+
+.upper-content-box{
+    width:25%;
+    margin:30px 30px 30px 0;
+    background-color: #F2F2F2;
+}
+
+.upper-content-box div{
+    padding: 20px;
+}
+
+.lower-content-box{
+    width:37%;
+    margin:30px 30px 30px 0;
+    background-color: #F2F2F2;
+}
+
+.lower-content-box div{
+    padding: 20px;
+}
+
+.lower-content-box h2{
+    text-align: center;
+}
+
+.upper-button-wrap{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.upper-button-wrap a{
+    font-size: 20px;
+    color: white;
+    padding:10px 25px;
+    border-radius: 5px;
+}
+
+.upper-button-wrap .bt-green{
+    background-color: #178A27;
+}
+
+.upper-button-wrap .bt-blue{
+    background-color: #1686C1;
+}
+
+.upper-button-wrap .bt-red{
+    background-color: #852406;
+}
+
+.lower-button-wrap{
+    text-align: right;
+    margin-bottom: 25px;
+    margin-right:50px;
+}
+
+.lower-button-wrap a{
+    font-size: 20px;
+    color: #666666;
+    padding:10px 25px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+
+.lower-button-wrap .bt-white{
+    background-color: #fff;
+}
+
+.section-3{
+    background-image: url("../images/bg-2.jpg");
+    width:100%;
+    height:100%;
+    max-height:614px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
