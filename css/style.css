@@ -75,6 +75,11 @@ hr {
     color: white;
     border: 1px solid #646d7c;
     padding:12px 25px;
+    transition: background-color 600ms;
+}
+
+.header a:hover{
+    background-color: #49505F;
 }
 
 #section-1{
@@ -358,4 +363,8 @@ hr {
 
 footer{
     margin: 40px 0;
+}
+
+.current-nav{
+    background-color: #49505F;
 }
